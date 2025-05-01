@@ -128,17 +128,19 @@ Tras analizar las evaluaciones que entregan nuestros clientes por sus compras, p
 | Cuerda para saltar         | 3,068,300      |  
 | Cubo mágico 8x8           | 2,729,300      |  
 
-- El producto más vendido es \*\*TV LED UHD 4K\*\* con un total de ventas de \$432,489,600
-- El producto menos vendido es \*\*Cubo mágico 8x8\*\* con un total de ventas de \$2,729,300
+- El producto más vendido es **TV LED UHD 4K** con un total de ventas de \$432,489,600
+- El producto menos vendido es **Cubo mágico 8x8** con un total de ventas de \$2,729,300
 
+
+![Productos mas y menos vendidos](06_Productos_mas_y_menos_vendidos.png)
 
 Ahora revisando cantidad neta vendida por productos, este es el escenario de mayores y menores ventas:
 
 
 Dado lo anterior podemos indicar con claridad que:
 
-- El producto más vendido es \*\*Mesa de noche\*\* con 210 ventas.
-- El producto menos vendido es \*\*Celular ABXY\*\* con 157 ventas.
+- El producto más vendido es **Mesa de noche** con 210 ventas.
+- El producto menos vendido es **Celular ABXY** con 157 ventas.
 
 
 
