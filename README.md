@@ -128,28 +128,95 @@ Tras analizar las evaluaciones que entregan nuestros clientes por sus compras, p
 | Cuerda para saltar         | 3,068,300      |  
 | Cubo mágico 8x8           | 2,729,300      |  
 
-- El producto más vendido es **TV LED UHD 4K** con un total de ventas de \$432,489,600
-- El producto menos vendido es **Cubo mágico 8x8** con un total de ventas de \$2,729,300
+- El producto que mayores ingresos retorna es **TV LED UHD 4K** con un total de ventas de \$432,489,600
+- El producto que menor retorme trae es **Cubo mágico 8x8** con un total de ventas de \$2,729,300
 
 
-![Productos mas y menos vendidos](06_Productos_mas_y_menos_vendidos.png)
+![Productos mas y menos vendidos](06_Productos_vendidos.png)
 
-Ahora revisando cantidad neta vendida por productos, este es el escenario de mayores y menores ventas:
-
-
-Dado lo anterior podemos indicar con claridad que:
+**Ahora revisando cantidad neta vendida por productos, este es el escenario de mayores y menores ventas:**
 
 - El producto más vendido es **Mesa de noche** con 210 ventas.
 - El producto menos vendido es **Celular ABXY** con 157 ventas.
 
+![ventas por producto](07_cantidad_vendida_por_productos.png)
 
+## **5.\_ Despachos y/o envíos con sus costos promedios por tienda**
 
-**5.\_ Despachos y/o envíos con sus costos promedios por tienda**
+| Tienda   | Envío Promedio en $ |  
+|---------|---------------|  
+| Tienda 1 | 26,018.6096  |  
+| Tienda 2 | 25,216.2357  |  
+| Tienda 3 | 24,805.6804  |  
+| Tienda 4 | 23,459.4572  |  
 
 Dado que muchos productos deben ser enviados a la dirección que el cliente solicita, podemos indicar el promedio de este ítem por cada tienda, expresado en moneda nacional.
 
 Relacionando cantidad de ventas versus el costo promedio de envió, podemos afirmar cuales son los productos más
 caros en enviar:  
+
+![08_Costo_promedio_por_envios_por_tiendas](08_Costo_promedio_por_envios_por_tiendas.png)
+
+## **6.\_ Productos más costosos de enviar**
+
+| Producto                   | Cantidad Total Ventas | Costo Promedio Envío |  
+|----------------------------|----------------------|----------------------|  
+| TV LED UHD 4K              | 187  | 123,181  |  
+| iPhone 15                  | 198  | 108,053  |  
+| Refrigerador               | 191  | 107,097  |  
+| Smart TV                   | 192  | 80,421   |  
+| Lavadora de ropa           | 176  | 73,231   |  
+| Lavavajillas               | 189  | 67,771   |  
+| Tablet ABXY                | 179  | 65,410   |  
+| Secadora de ropa           | 200  | 55,971   |  
+| Celular ABXY               | 157  | 53,578   |  
+| Guitarra eléctrica         | 165  | 41,558   |  
+| Batería                    | 203  | 38,790   |  
+| Estufa                     | 187  | 37,159   |  
+| Sofá reclinable            | 182  | 36,151   |  
+| Cama king                  | 201  | 36,084   |  
+| Microondas                 | 206  | 29,614   |  
+| Cama box                   | 199  | 27,703   |  
+| Bicicleta                  | 196  | 26,217   |  
+| Armario                    | 197  | 26,130   |  
+| Silla de oficina           | 181  | 20,360   |  
+| Guitarra acústica          | 188  | 16,669   |  
+| Impresora                  | 188  | 16,026   |  
+| Kit de bancas              | 188  | 15,084   |  
+| Mesa de noche              | 210  | 14,971   |  
+| Mesa de comedor            | 185  | 13,484   |  
+| Sillón                     | 168  | 12,901   |  
+| Asistente virtual          | 167  | 10,895   |  
+| Juego de mesa              | 175  | 9,852    |  
+| Mesa de centro             | 175  | 9,319    |  
+| Smartwatch                 | 172  | 9,132    |  
+| Set de ollas               | 200  | 8,172    |  
+| Auriculares con micrófono  | 158  | 7,701    |  
+| Mochila                    | 163  | 5,107    |  
+| Auriculares                | 174  | 4,898    |  
+| Olla de presión            | 172  | 4,045    |  
+| Carrito de control remoto  | 206  | 3,934    |  
+| Modelado predictivo        | 200  | 3,341    |  
+| Pandereta                  | 197  | 3,245    |  
+| Ciencia de datos con Python| 166  | 2,879    |  
+| Iniciando en programación  | 195  | 2,742    |  
+| Balón de voleibol          | 184  | 2,731    |  
+| Balón de baloncesto        | 197  | 2,558    |  
+| Vaso térmico               | 187  | 2,406    |  
+| Muñeca bebé                | 175  | 2,354    |  
+| Cubertería                 | 189  | 2,217    |  
+| Set de vasos               | 169  | 2,142    |  
+| Dashboards con Power BI    | 181  | 2,095    |  
+| Bloques de construcción    | 199  | 1,655    |  
+| Ajedrez de madera          | 180  | 1,530    |  
+| Dinosaurio Rex             | 175  | 1,470    |  
+| Cuerda para saltar         | 186  | 1,420    |  
+| Cubo mágico 8x8           | 180  | 1,182    |  
+
+![09_Productos_mas_costosos_de_enviar](09_Productos_mas_costosos_de_enviar.png)
+
+![10_Relacion_cantidad_de_ventas_y_costo_promedio_de_envio](10_Relacion_cantidad_de_ventas_y_costo_promedio_de_envio.png)
+
 
 
 **Conclusión:**
@@ -193,5 +260,7 @@ Para potenciar los productos y mejorar el rendimiento de sus tiendas se sugieren
 
 
 Abril 2025.
+
 Miguel Venegas T.
+
 miguel.venegas @ gmail com
