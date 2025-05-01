@@ -35,16 +35,17 @@ Tienda 4    1,038,375,700
 
 Tras comparar las diversas categorías, con ello los productos asociados y sus ventas, tenemos este resultado que se expresa en moneda nacional (\$):
 
-| Categoría del Producto   | Tienda 1    | Tienda 2    | Tienda 3    | Tienda 4     |
-|------------------------_-|-------------|-------------|-------------|-------------|
-| Artículos para el hogar  | 12,698,400  | 14,746,900  | 15,060,000  | 15,074,500  |
-| Deportes y diversión     | 39,290,000  | 34,744,500  | 35,593,100  | 33,350,100  |
-| Electrodomésticos        | 363,685,200 | 348,567,800 | 329,237,900 | 283,260,200 |
-| Electrónicos             | 429,493,500 | 410,831,100 | 410,775,800 | 409,476,100 |
-| Instrumentos musicales   | 91,299,000  | 104,990,300 | 77,380,900  | 75,102,400  |
-| Juguetes                 | 17,995,700  | 15,945,400  | 19,401,100  | 20,262,200  |
-| Libros                   | 8,784,900   | 10,091,200  | 9,498,700   | 9,321,300   |
-| Muebles                  | 187,633,700 | 176,426,300 | 201,072,100 | 192,528,900 |
+| Categoría del Producto   | Tienda 1     | Tienda 2     | Tienda 3     | Tienda 4     |  
+|-------------------------|-------------|-------------|-------------|-------------|  
+| Artículos para el hogar  | 12,698,400  | 14,746,900  | 15,060,000  | 15,074,500  |  
+| Deportes y diversión     | 39,290,000  | 34,744,500  | 35,593,100  | 33,350,100  |  
+| Electrodomésticos        | 363,685,200 | 348,567,800 | 329,237,900 | 283,260,200 |  
+| Electrónicos             | 429,493,500 | 410,831,100 | 410,775,800 | 409,476,100 |  
+| Instrumentos musicales   | 91,299,000  | 104,990,300 | 77,380,900  | 75,102,400  |  
+| Juguetes                 | 17,995,700  | 15,945,400  | 19,401,100  | 20,262,200  |  
+| Libros                   | 8,784,900   | 10,091,200  | 9,498,700   | 9,321,300   |  
+| Muebles                  | 187,633,700 | 176,426,300 | 201,072,100 | 192,528,900 |  
+
 
 ![Ventas por Categiria](02_Ventas_por_categoria.png)
 ![Ventas por Categiria](03_distibucion_ingresos_por_categori_ventas.png)
@@ -55,15 +56,20 @@ Dado este factor podemos indicar que:
 - Las 3 categorías con menor venta son Libros, Artículos para el hogar y   juguetes.
 
 
-
 **3.\_ Calificación promedio por tiendas**
 
 Tras analizar las evaluaciones que entregan nuestros clientes por sus compras, podemos determinar que:
-
+| Tienda   | Calificación Promedio Ordenada |  
+|---------|------------------------------|  
+| Tienda 3 | 4.0483  |  
+| Tienda 2 | 4.0373  |  
+| Tienda 4 | 3.9958  |  
+| Tienda 1 | 3.9767  |  
 
 - La mejor calificación es de la Tienda 3: 4.0483
 - La peor calificación es de la Tienda 1: 3.9767
 
+![04_Calificacion_promedio_por _tienda](04_Calificacion_promedio_por_tienda.png)
 
 **4.\_ Productos más y menos vendidos**
 
@@ -71,6 +77,8 @@ Acorde a registros de ventas, podemos señalar los 5 de mayores ventas y los 5 d
 
 - El producto más vendido es \*\*TV LED UHD 4K\*\* con un total de ventas de \$432,489,600
 - El producto menos vendido es \*\*Cubo mágico 8x8\*\* con un total de ventas de \$2,729,300
+
+![04_Calificacion_promedio_por _tienda](04_Calificacion_promedio_por _tienda.png)
 
 Ahora revisando cantidad neta vendida por productos, este es el escenario de mayores y menores ventas:
 
