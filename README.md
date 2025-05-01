@@ -4,6 +4,8 @@ Estimado Sr. Juan, un gusto saludarle
 
 Informo a usted, y a quien estime conveniente, resultado de análisis de la información de sus tiendas, ello con el fin de determinar cual tienda presenta menores índices de ventas, de calificación de clientes y mayores costos de envió por producto; además de dar información valiosa respecto a que productos son los más y menos vendidos a fin de facilitar toma de decisiones para continuidad de las demás tiendas y que potenciar en ellas.
 
+Este informe es en base a información proporciada, con ello tendra a mano toda la información de datos no de supuestos o corazonadas respecto a una correcta toma de desiciones, este camino es lo que convella ventaja respecto a competidores dado que paso a paso al usar los datos se esta transformando en una empresa data driven.
+
 ##Objetivo:
 
 - Analizar registro de ventas entre los periodos enero 2020 a marzo 2023.
@@ -23,14 +25,35 @@ Tienda 2    1,116,343,500
 Tienda 3    1,098,019,600
 Tienda 4    1,038,375,700
 
-- El mayor ingreso es de Tienda 1: \$1,150,880,400
-- El menor ingreso es de Tienda 4: \$1,038,375,700
+- El mayor ingreso es de Tienda 1: $1,150,880,400
+- El menor ingreso es de Tienda 4: $1,038,375,700
+
+![Gráfico de ingresos totales por tienda] (01 Analisis de Facturacion.png)
 
 
 **2.\_ Análisis por categoría de productos**
 
 Tras comparar las diversas categorías, con ello los productos asociados y sus ventas, tenemos este resultado que se expresa en moneda nacional (\$):
 
+╒══════════════════════════╤═════════════╤═════════════╤═════════════╤═════════════╕
+│ Categoría del Producto   │    Tienda 1 │    Tienda 2 │    Tienda 3 │    Tienda 4 │
+╞══════════════════════════╪═════════════╪═════════════╪═════════════╪═════════════╡
+│ Artículos para el hogar  │  12,698,400 │  14,746,900 │  15,060,000 │  15,074,500 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Deportes y diversión     │  39,290,000 │  34,744,500 │  35,593,100 │  33,350,100 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Electrodomésticos        │ 363,685,200 │ 348,567,800 │ 329,237,900 │ 283,260,200 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Electrónicos             │ 429,493,500 │ 410,831,100 │ 410,775,800 │ 409,476,100 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Instrumentos musicales   │  91,299,000 │ 104,990,300 │  77,380,900 │  75,102,400 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Juguetes                 │  17,995,700 │  15,945,400 │  19,401,100 │  20,262,200 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Libros                   │   8,784,900 │  10,091,200 │   9,498,700 │   9,321,300 │
+├──────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Muebles                  │ 187,633,700 │ 176,426,300 │ 201,072,100 │ 192,528,900 │
+╘══════════════════════════╧═════════════╧═════════════╧═════════════╧═════════════╛
 
 
 Dado este factor podemos indicar que:
