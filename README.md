@@ -1,77 +1,119 @@
-# Amigo Secreto
+##INFORME DE TIENDAS
 
-Una aplicación web que permite organizar juegos de "Amigo Secreto" de manera aleatoria, no envia mensajes sino que muestra resultados en pantalla
+Estimado Sr. Juan, un gusto saludarle
 
-## Características
+Informo a usted, y a quien estime conveniente, resultado de análisis de la información de sus tiendas, ello con el fin de determinar cual tienda presenta menores índices de ventas, de calificación de clientes y mayores costos de envió por producto; además de dar información valiosa respecto a que productos son los más y menos vendidos a fin de facilitar toma de decisiones para continuidad de las demás tiendas y que potenciar en ellas.
 
-- Permite añadir participantes
-- Valida nombres (no vacíos, no duplicados, etc.)
-- Realiza sorteo aleatorio asegurando que nadie se asigne a sí mismo
-- Muestra el resultado del sorteo paso a paso
-- Incluye botón de reinicio para comenzar un nuevo juego
+##Objetivo:
 
-## Tecnologías utilizadas
+- Analizar registro de ventas entre los periodos enero 2020 a marzo 2023.
+- Determinar que tiendas produce mayor y menor facturación
+- Determinar que categorías y productos tienen mejor y peor venta
+- Determinar ranking promedio de costos de envió por productos
 
-- HTML5
-- CSS
-- JavaScript 
+**1.\_ Análisis de Facturación**
 
-## Explicación del código:
+Se revisaron datos de ventas acorde a información enviada para los
+periodos ya indicados, el resultado de ello es:
 
-## Variables globales:
+Tienda      Total de Ingresos en \$
+--------   ---------------
+Tienda 1    1,150,880,400
+Tienda 2    1,116,343,500
+Tienda 3    1,098,019,600
+Tienda 4    1,038,375,700
 
-- listaAmigos: Almacena los nombres de los participantes
-- parejasSorteadas: Guarda las asignaciones de amigos secretos
-- indiceSorteoActual: Controla qué resultado del sorteo estamos mostrando
+- El mayor ingreso es de Tienda 1: \$1,150,880,400
+- El menor ingreso es de Tienda 4: \$1,038,375,700
 
-## Funciones principales:
 
-- agregarAmigo(): Añade un nombre a la lista después de validarlo
-- validarNombre(): Verifica que el nombre cumpla con todos los requisitos
-- actualizarListaUI(): Muestra la lista actualizada en la interfaz
-- eliminarAmigo(): Elimina un amigo de la lista
-- sortearAmigo(): Muestra los resultados del sorteo uno por uno
-- realizarSorteo(): Genera las parejas aleatorias de amigos secretos
-- resetearJuego(): Reinicia todo el juego
+**2.\_ Análisis por categoría de productos**
 
-## Validaciones:
+Tras comparar las diversas categorías, con ello los productos asociados y sus ventas, tenemos este resultado que se expresa en moneda nacional (\$):
 
-- Comprueba que los nombres no estén vacíos
-- Verifica que los nombres contengan al menos una letra (no solo símbolos)
-- Asegura que no haya nombres duplicados
 
-## Algoritmo de sorteo:
 
-- Garantiza que nadie se asigne a sí mismo como amigo secreto
-- Maneja situaciones especiales para evitar asignaciones inválidas
-- Distribuye aleatoriamente los nombres
+Dado este factor podemos indicar que:
 
-## Características adicionales:
+- Las 3 principales categorías de ventas son de tipo Electrónicos,  Electrodomésticos y muebles
+- Las 3 categorías con menor venta son Libros, Artículos para el hogar y   juguetes.
 
-- Botón para eliminar amigos individuales de la lista
-- Compatibilidad con la tecla Enter para agregar nombres
-- Botón dedicado para reiniciar el juego
 
-## Prevención de ciclos infinitos:
-Una verificación para asegurar que nadie se asigne a sí mismo, y si ocurre, se realiza un nuevo sorteo.
 
-## Manejo de casos especiales:
-Cuando quedaba un solo participante y podía auto-asignarse, hace un intercambio con una asignación previa aleatoria para garantizar que nadie se auto-asigne.
+**3.\_ Calificación promedio por tiendas**
 
-## Depuración:
-mensaje de depuración en la consola para poder verificar que las parejas se están generando correctamente.
-Esto te ayudará a identificar cualquier problema futuro que pueda surgir.
+Tras analizar las evaluaciones que entregan nuestros clientes por sus compras, podemos determinar que:
 
-## Cómo funciona el  algoritmo:
 
-Para cada persona en la lista de amigos:
+- La mejor calificación es de la Tienda 3: 4.0483
+- La peor calificación es de la Tienda 1: 3.9767
 
-- Se filtran los potenciales amigos secretos (excluyendo a la persona actual)
-- Si hay potenciales amigos, se elige uno aleatoriamente
-- Si no hay potenciales amigos (último caso), se intercambia con una asignación previa
 
-La visualización de los resultados se controla mediante la función sortearAmigo(), que muestra un resultado cada vez que se hace clic en el botón
+**4.\_ Productos más y menos vendidos**
 
-Marzo 2025.
+Acorde a registros de ventas, podemos señalar los 5 de mayores ventas y los 5 de menores ventas ambos respecto a valor final:
+
+- El producto más vendido es \*\*TV LED UHD 4K\*\* con un total de ventas de \$432,489,600
+- El producto menos vendido es \*\*Cubo mágico 8x8\*\* con un total de ventas de \$2,729,300
+
+Ahora revisando cantidad neta vendida por productos, este es el escenario de mayores y menores ventas:
+
+
+Dado lo anterior podemos indicar con claridad que:
+
+- El producto más vendido es \*\*Mesa de noche\*\* con 210 ventas.
+- El producto menos vendido es \*\*Celular ABXY\*\* con 157 ventas.
+
+
+
+**5.\_ Despachos y/o envíos con sus costos promedios por tienda**
+
+Dado que muchos productos deben ser enviados a la dirección que el cliente solicita, podemos indicar el promedio de este ítem por cada tienda, expresado en moneda nacional.
+
+Relacionando cantidad de ventas versus el costo promedio de envió, podemos afirmar cuales son los productos más
+caros en enviar:  
+
+
+**Conclusión:**
+
+Según los datos del informe, **Tienda 4** presenta los menores ingresos entre todas las tiendas, con un total de **\$1,038,375,700**. Además, al comparar calificaciones de clientes, no es la mejor valorada (aunque no es la peor). Si el objetivo es reducir costos y optimizar el negocio, podrías considerar vender esta tienda para concentrar recursos en las de Mayor rendimiento.
+
+Adicionalmente se sugiere enfocar los productos en venta en todas las tiendas, los datos analizados demuestran productos con poca venta, pero alto costo en despacho lo cual gatilla en menor ganancia para la empresa, ejemplo Tablex ABXY.
+
+**Recomendaciones adicionales**
+
+Para potenciar los productos y mejorar el rendimiento de sus tiendas se sugieren estrategias digitales que pueden ayudar a aumentar las ventas y mejorar la experiencia del cliente:
+
+**🚀 1. Estrategia en Redes Sociales**
+
+✅ Instagram y TikTok: Publicaciones y videos cortos mostrando productos con promociones exclusivas.
+✅ Facebook y WhatsApp: Creación de catálogos interactivos y atención personalizada por mensajería.
+
+**📈 2. Optimización del E-commerce y Marketplace**
+
+✅ Mejoras en la tienda online: Implementar filtros avanzados, reseñas de productos y una interfaz intuitiva.
+✅ Publicidad segmentada: Anuncios en Google Ads y Meta Ads dirigidos a clientes potenciales en Colombia.
+✅ Marketplaces: Publicar productos en plataformas como MercadoLibre o Linio para alcanzar más clientes.
+
+**🔥 3. Estrategia SEO y Contenido Digital**
+
+✅ Blog de contenido útil: Artículos sobre tecnología, electrodomésticos y consejos de decoración.
+✅ SEO para posicionamiento: Optimizar títulos y descripciones para aparecer en búsquedas de Google.
+✅ Email Marketing personalizado: Ofertas y descuentos exclusivos para clientes frecuentes.
+
+**🎯 4. Experiencia de Compra Digital**
+
+✅ Pruebas virtuales: Simulaciones en realidad aumentada para muebles y tecnología.
+✅ Atención automatizada: Chatbots en el sitio web para dudas rápidas y recomendaciones personalizadas.
+✅ Programa de fidelización: Puntos y descuentos especiales para compras recurrentes.
+
+**📊 5. Estrategias de Retención y Engagement**
+
+✅ Gamificación: Desafíos y sorteos en redes sociales con premios atractivos.
+✅ Encuestas de satisfacción: Recolectar opiniones para mejorar productos y experiencia.
+✅ Ofertas Flash: Descuentos de tiempo limitado para generar urgencia de compra.
+
+
+Abril 2025.
 Miguel Venegas T.
 miguel.venegas @ gmail com
