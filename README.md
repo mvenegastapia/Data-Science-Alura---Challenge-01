@@ -28,7 +28,7 @@ Tienda 4    1,038,375,700
 - El mayor ingreso es de Tienda 1: $1,150,880,400
 - El menor ingreso es de Tienda 4: $1,038,375,700
 
-![ngresos totales por tienda](01 Analisis de Facturacion.png)
+![ngresos totales por tienda](01_Analisis_de_Facturacion.png)
 
 
 **2.\_ Análisis por categoría de productos**
